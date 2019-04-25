@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While parsing /Users/Kimidori/Development/malevolentdivines/game/ActOneDayFour.rpy.
+ScriptError: Name u'a7' is defined twice, at game/ActOneDayFour.rpy:610 and game/ActOneDayThree.rpy:154.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Users/Kimidori/Downloads/renpy-6.99.5-sdk/renpy/bootstrap.py", line 281, in bootstrap
+    renpy.main.main()
+  File "/Users/Kimidori/Downloads/renpy-6.99.5-sdk/renpy/main.py", line 356, in main
+    renpy.game.script.load_script() # sets renpy.game.script.
+  File "/Users/Kimidori/Downloads/renpy-6.99.5-sdk/renpy/script.py", line 185, in load_script
+    self.load_appropriate_file(".rpyc", ".rpy", dir, fn, initcode)
+  File "/Users/Kimidori/Downloads/renpy-6.99.5-sdk/renpy/script.py", line 660, in load_appropriate_file
+    self.finish_load(stmts, initcode, filename=fn + source)
+  File "/Users/Kimidori/Downloads/renpy-6.99.5-sdk/renpy/script.py", line 340, in finish_load
+    bad_node.filename, bad_node.linenumber))
+ScriptError: Name u'a7' is defined twice, at game/ActOneDayFour.rpy:610 and game/ActOneDayThree.rpy:154.
+
+Darwin-15.0.0-x86_64-i386-64bit
+Ren'Py 6.99.5.602
+ 
